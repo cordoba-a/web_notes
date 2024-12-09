@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+/*diseño header*/
+.header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    text-align: left;
+} 
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li {
+    line-height: 40px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 1px;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    cursor: pointer;
+    color: #1ed760;
+}
+
+.spotify_logo {
+    height: 30px;
+    width: 122px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 6rem;
+}
+
+
+/*diseño section promo */
+.promo {
+    padding-top: 72px;
+    padding-bottom: 40px;
+    background: #ffd4db;
+    height: 17rem;
+}
+
+.promo_contenido {
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 6rem;
+}
+
+.promo_contenido h1 {
+    font-size: xx-large;
+    padding: 20px 20px;
+}
+
+.tamaño  {
+    font-size: large;
+    padding: 20px 20px;
+}
+
+button{
+    font-weight: bold;
+    border-radius: 24px;
+    height:48px;
+    padding-top: 2px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #ffd4db;
+    cursor: pointer;
+} 
+
+.button-black {
+    margin-top: 30px;
+    background: black;
+    color: white;
+}
+
+.texto-small {
+    margin-top: 30px;
+    font-size: 0.68rem;
+}
+
+.texto-small a {
+    text-decoration: none;
+}
+
+
+/*diseño section beneficios premium*/
+.beneficios_premium {
+    padding-top: 72px;
+    padding-bottom: 40px;
+    background: white;
+    height: 30rem;
+}
+
+.text-center {
+    text-align: center;
+    font-size: x-large;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-around;
+    margin-left: 1rem;
+    padding-top: 30px;
+}
+
+.flex-item {
+    padding: 30px;
+    width: 260px;
+    height:260px;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+
+.flex-item img {
+    width: 142px;
+    height: 142px;
+}
+
+.flex-item h1,p {
+    padding-top: 20px;
+}
+
+
+/*diseño section elige tu plan*/
+.plan_premium {
+    padding-top: 72px;
+    padding-bottom: 40px;
+    background: #efefef;
+    height: 53rem;
+}
+
+.text-sub-premium {
+    font-size: 20px;
+}
+
+.flex_container_premium {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-left: 1rem;
+    padding-top: 30px;
+}
+
+.flex_item_premium {
+    background-color: white;
+    padding: 6px;
+    width: 260px;
+    height:650px;
+    margin-top: 10px;
+    color: black;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+.background_blue {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 900;
+    margin: 0px 4px 10px 0px;
+    margin-block: 0px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 119, 208);
+}
+
+.color_blue{
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 900;
+    margin: 0px 4px 10px 0px;
+    margin-block: 0px 10px;
+    color: rgb(13, 114, 234);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(13, 114, 234);
+}
+
+.text_premium {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px 30px 10px 0px;
+}
+
+.lista {
+    margin: 40px 0px 0px 30px;
+    line-height: 24px;
+    height: 15rem;
+}
+
+.button-black-premium {
+    background: black;
+    color: white;
+    width: 240px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+.button-premium{
+    margin-top: 30px;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*diseño section pie de página web*/
+.footer {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: black;
+    color: white;
+    height: 20rem;
+}
+
+.flex_container_footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap:40px;
+    padding-top: 30px;
+    margin-left: 300px;
+}
+
+.flex_item_footer {
+    background-color: black;
+    padding: 10px;
+    width: 170px;
+    height: 200px;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    line-height: 39px;
+}
+
+.flex_item_footer ul{
+    list-style: none;
+}
+
+.flex_item_footer p{
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 3;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.flex_item_footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.flex_item_footer a:hover{
+    cursor: pointer;
+    color: #1ed760;
+}
